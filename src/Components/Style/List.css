@@ -1,0 +1,51 @@
+.containerMain{
+    align-items: center;
+    justify-content: center;
+}
+.formFrontContainer{
+    border: 1px solid black;
+    border-radius: 3%;
+    width: 600px;
+    height: 500px;
+    background-color: #2F4F4F;
+}
+
+li{
+    color: rgb(6, 6, 6);
+    padding: 1%;
+    font-size: 20px;
+}
+h2{
+    justify-content: center;
+    display: flex;
+    color: antiquewhite;
+}
+.titleForm{
+    padding: 10px;
+    color: black;
+}
+h1{
+    color: aliceblue;
+}
+.iptList{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 20px;
+}
+.Btn{
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    left: 20px;
+    position: relative;
+}
+.valueForm{
+    color:azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+}

@@ -1,0 +1,20 @@
+.containerMenu{
+    position: relative;
+    display: flex;
+    right: 280px;
+    bottom: 300px;
+}
+
+.iptMenu{
+    border-radius: 1px;
+    width: 200px;
+    height: 25px;
+}
+.iptBtn{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+}

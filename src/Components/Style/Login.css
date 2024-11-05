@@ -1,0 +1,39 @@
+.loginContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.loginForm{
+    padding: 10px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+.btnLogin{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.iptLogin{
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+}
+.btnLogin{
+    color: aliceblue;
+    background-color: black;
+}
+.fontLogin{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+.imageLogin{
+    max-width: 100%;
+    width: 400px;
+    left: 200px;
+    position: absolute;
+}

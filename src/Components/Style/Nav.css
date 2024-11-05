@@ -1,0 +1,13 @@
+.containerNav{
+    width: 100%;
+    height: 150px;
+    background-color: #2F4F4F;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+.imgNav{
+    position: relative;
+    left: 88%;
+}
