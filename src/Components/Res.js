@@ -10,6 +10,7 @@ const Res = () => {
         <p>Gerir atividades:</p>
       </form>
 
+
     <div className='front'>
             <List />
     </div>

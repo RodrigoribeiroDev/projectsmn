@@ -1,13 +1,13 @@
 .containerMain{
     align-items: center;
     justify-content: center;
+
 }
 .formFrontContainer{
     border: 1px solid black;
     border-radius: 3%;
     width: 600px;
     height: 500px;
-    background-color: #2F4F4F;
 }
 
 li{

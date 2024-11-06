@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import './Style/List.css'
-import { useNavigate } from 'react-router-dom';
-
 
 
 const Form = () => {
@@ -9,20 +7,18 @@ const Form = () => {
   const [inputValue, setInputValue] = useState([]);
   const [showValue, setShowValue] = useState('');
   const [iptMenu, setIptMenu] = useState('');
-  const navigate = useNavigate()
 
   const submit = () => {
     if (iptMenu === "") {
         alert("Preencha o campo!");
     } else {
         alert("Enviado com sucesso!");
-        setIptMenu(''); // Limpa o campo
+        setIptMenu('');
     }
   };
   const handleClick = () => {
-    setInputValue([...inputValue, showValue])
+    setInputValue((prevInputValue) => [...prevInputValue, showValue])
     setShowValue('');
-    navigate('iptMenu', { state : { showValue }} )
   }
 
   return (

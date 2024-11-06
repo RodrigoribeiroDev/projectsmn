@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import List from './Components/List';
 import Login from './Components/Login';
-import Tasks from './Components/Tasks';
 import IptMenu from './Components/IptMenu';
 import Res from './Components/Res';
 
@@ -17,7 +16,6 @@ const router = createBrowserRouter([
 
      { path: "list", element: <List /> },
      { path: "login", element: <Login /> },
-     { path: "tasks", element: <Tasks /> },
      { path: "res", element: <Res /> },
      { path: "iptMenu", element: <IptMenu /> }
       ]

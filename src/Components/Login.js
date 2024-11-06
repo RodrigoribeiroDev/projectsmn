@@ -13,9 +13,6 @@ const Login = () => {
     const btn =() =>{
         if(login === '' || password === ''){
             alert('Preencha todos os campos!')
-        } else{
-            alert('Cadastrado com sucesso!')
-            return;
         }
         
     }
